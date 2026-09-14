@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nonlinear Flow is a one-person workshop for software, experiments, and unexpected directions."
+    />
+    <title>Nonlinear Flow — Things worth building</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Nonlinear Flow, top of page"><img class="monogram" src="assets/nonlinear-flow-monogram.png" alt="" /></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <h1 id="page-title">Ideas don’t move in straight lines.</h1>
+          <p class="hero-statement">Nonlinear Flow is an independent product workshop where I build small software products, experiments, and tools.</p>
+          <a class="text-link" href="#work">Explore products <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="path-stage" aria-hidden="true">
+          <svg class="flow-map" viewBox="0 0 760 520" role="presentation" focusable="false">
+            <path class="guide-path" d="M68 106 C151 24 163 240 280 220 S355 110 430 230 S308 427 448 394 S530 282 586 382 S558 466 692 436" />
+            <path id="flow-path" class="flow-path" d="M68 106 C151 24 163 240 280 220 S355 110 430 230 S308 427 448 394 S530 282 586 382 S558 466 692 436" />
+            <circle class="origin-dot" cx="68" cy="106" r="8" />
+            <circle class="destination-dot" cx="692" cy="436" r="8" />
+            <circle class="stage-dot" cx="280" cy="220" r="7" />
+            <circle class="stage-dot" cx="448" cy="394" r="7" />
+            <text class="route-label" x="68" y="76">Idea</text>
+            <text class="route-label" x="280" y="252">Experiment</text>
+            <text class="route-label" x="448" y="426">Prototype</text>
+            <text class="route-label" x="692" y="408" text-anchor="end">Product</text>
+            <text class="route-label" x="692" y="468" text-anchor="end">Something unexpected</text>
+          </svg>
+        </div>
+      </section>
+
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <h2 id="work-title">Things taking shape</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card project-card-muffin">
+            <div class="project-meta"><span>01</span><span>Live</span></div>
+            <img class="product-logo muffin-logo" src="assets/products/muffin.png" alt="Muffin logo" />
+            <div class="project-content">
+              <h3>Muffin</h3>
+              <p>A small independent tool.</p>
+              <a class="product-link" href="https://kvssptj.github.io/hey-muffin/">Visit Muffin <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card project-card-surfer">
+            <div class="project-meta"><span>02</span><span>Building</span></div>
+            <img class="product-logo surfer-logo" src="assets/products/surfer.png" alt="Surfer logo" />
+            <div class="project-content">
+              <h3>Surfer</h3>
+              <p>Turns your documents into a living, queryable knowledge workspace — for people and AI agents.</p>
+            </div>
+          </article>
+
+          <article class="project-card project-card-rubricly">
+            <div class="project-meta"><span>03</span><span>Building</span></div>
+            <span class="rubricly-mark" aria-hidden="true">R</span>
+            <div class="project-content">
+              <h3>Rubricly</h3>
+              <p>An AI evaluation tool that helps teams define, run, and improve task-specific evals for AI products and agents.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built by Pavan <span aria-hidden="true">·</span> <span id="current-year">2026</span></p>
+      <a href="mailto:hello@nonlinearflow.com">hello@nonlinearflow.com <span aria-hidden="true">↗</span></a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
