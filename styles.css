@@ -141,7 +141,7 @@ h3 { margin-bottom: 12px; font-size: clamp(2.5rem, 4.6vw, 5.15rem); font-weight:
 .project-list { grid-template-columns: repeat(3, 1fr); }
 .product-logo { position: absolute; right: 18px; top: 52px; width: 82px; height: 82px; object-fit: contain; }
 .surfer-logo { width: 118px; height: 94px; right: 8px; top: 35px; }
-.rubricly-mark { position: absolute; right: 19px; top: 38px; color: var(--accent); font-family: Georgia, serif; font-size: 7rem; line-height: 1; }
+.rubricly-logo { width: 116px; height: 116px; top: 32px; right: 12px; object-fit: contain; }
 .project-card-rubricly { background: #e8e1d4; }
 .product-link { display: inline-block; margin-top: 18px; border-bottom: 1px solid currentColor; font-size: 0.82rem; font-weight: 700; padding-bottom: 3px; }
 .product-link span { color: var(--accent); }
